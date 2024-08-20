@@ -19,6 +19,14 @@ h1{
 }
 .separator{
 	position: relative;
+	max-width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.separator img {
+	width: 100%;
+	height: auto;
+	display: block;
 }
 .absolute{
 	position: absolute;
